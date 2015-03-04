@@ -1,0 +1,25 @@
+/*
+Theme Name: English Trip Bootstrap
+Theme URI: http://www.englishtrip.net
+Author: Eric Sartorius
+Author URI:
+Description: Bootstrap test theme for ET Website
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/glp-2.0.html
+Text Domain: EngishTrip
+
+This theme, like WordPress, is licensed under the GPL.
+*/
+
+
+/* BOOTSTRAP JUMBOTRON */
+body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+/* ADMIN BAR */
+.admin-bar .navbar-fixed-top {
+	margin-top: 30px;
+}
