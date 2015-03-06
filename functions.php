@@ -35,4 +35,22 @@ function register_theme_menus() {
 add_action( 'init', 'register_theme_menus');
 
 
+function create_widget($name, $id, $description ) {
+
+	register_sidebar(array(
+		'name' => __( $name ),
+		'id' => $id,
+		'description' => __( $description),
+		'before_widget' => '<div class="widget">',
+		'after_widget' => '</div>',
+		'before_title' => '<h3>',
+		'after_title' => '</h3>'
+		));
+}
+
+create_widget( 'Front Page Left', 'front-left', 'Displays on front left of homepage');
+create_widget( 'Front Page Center', 'front-center', 'Displays on front center of homepage');
+create_widget( 'Front Page Right', 'front-right', 'Displays on front right of homepage');
+
+
 ?>
