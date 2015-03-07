@@ -1,5 +1,7 @@
 <?php
 
+
+//THEME STYLES
 function theme_styles() {
 
 	wp_enqueue_style( 'bootstrap_css', get_template_directory_uri() . '/css/bootstrap.min.css');
@@ -7,6 +9,7 @@ function theme_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'theme_styles');
 
+//HTML5 SHIV
 function theme_js() {
 
 	global $wp_scripts;
@@ -24,6 +27,8 @@ add_action( 'wp_enqueue_scripts', 'theme_js');
 
 add_theme_support( 'menus');
 
+
+//MENUS
 function register_theme_menus() {
 
 	register_nav_menus(
@@ -34,7 +39,7 @@ function register_theme_menus() {
 }
 add_action( 'init', 'register_theme_menus');
 
-
+//WIDGETS
 function create_widget($name, $id, $description ) {
 
 	register_sidebar(array(
@@ -52,5 +57,5 @@ create_widget( 'Front Page Left', 'front-left', 'Displays on front left of homep
 create_widget( 'Front Page Center', 'front-center', 'Displays on front center of homepage');
 create_widget( 'Front Page Right', 'front-right', 'Displays on front right of homepage');
 
-
+create_widget( 'Page Sidebar', 'page', 'Displays on side of page with sidebar');
 ?>

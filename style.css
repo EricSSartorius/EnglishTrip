@@ -77,3 +77,13 @@ body {
 }
 
 
+/* SIDEBAR */
+.sidebar {
+	
+	margin-top: 40px;
+}
+
+/* WIDGET */
+.widget {
+	margin: 10px 0 30px;
+}
