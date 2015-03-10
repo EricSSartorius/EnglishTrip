@@ -87,3 +87,10 @@ body {
 .widget {
 	margin: 10px 0 30px;
 }
+
+
+/* BLOG POSTS */
+
+article.post {
+	margin: 20px 0 40px;
+}

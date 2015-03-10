@@ -4,7 +4,7 @@
 
 
     <h3>Sidebar</h3>
-    <p>add widgets to sidebar to have them display here</p>
+    <p>add widgets to the page sidebar to have them display here</p>
 	
 	<?php endif; ?>
 
