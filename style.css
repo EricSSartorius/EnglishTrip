@@ -15,12 +15,21 @@ This theme, like WordPress, is licensed under the GPL.
 
 /* BOOTSTRAP JUMBOTRON */
 body {
-	padding-top: 50px;
+	
 	padding-bottom: 20px;
+
+
+  background: url(images/bg_gig.jpg) repeat center top;
+
+
+}
+
+.container{
+	background: #FFFFCC;
 }
 
 /* ADMIN BAR */
-.admin-bar .navbar-fixed-top {
+.admin-bar {
 	margin-top: 30px;
 }
 
@@ -64,7 +73,7 @@ body {
 }
 
 .current-menu-item > a, .current-menu-parent > a {
-	background: 000;
+	background: #000;
 }
 
 .current-menu-parent li a {
@@ -86,6 +95,7 @@ body {
 /* WIDGET */
 .widget {
 	margin: 10px 0 30px;
+	background: #fff;
 }
 
 
@@ -93,4 +103,8 @@ body {
 
 article.post {
 	margin: 20px 0 40px;
+}
+
+.featured-image img {
+	max-width:100%;
 }
