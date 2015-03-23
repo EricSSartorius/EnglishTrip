@@ -18,9 +18,6 @@
 
   <body <?php body_class(); ?>>
 
-
-
-
     <nav class="navbar navbar-inverse">
       <div class="container">
         <div class="navbar-header">
@@ -30,7 +27,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="<?php bloginfo( 'url' ); ?>"><img src="<?php bloginfo('template_directory');?>/images/ETlogo.png" alt="ET Logo"></a>
+          <a class="navbar-brand" href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
          
