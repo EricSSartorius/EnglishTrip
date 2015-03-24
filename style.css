@@ -13,25 +13,20 @@ This theme, like WordPress, is licensed under the GPL.
 */
 
 
-/* BOOTSTRAP JUMBOTRON */
+/* MAIN STYLES */
 body {
-	
 	padding-bottom: 20px;
-
-
-  background: url(images/bg_gig.jpg) repeat center top;
-
-
+ 	background: url(images/bg_gig.jpg) repeat center top;
 }
 
 .container{
 	background: #FFFFCC;
 }
 
-/* ADMIN BAR */
-.admin-bar {
-	margin-top: 30px;
+.main-container{
+	background: none;
 }
+
 
 /* MENU DROPDOWN*/
 
@@ -96,6 +91,7 @@ body {
 .widget {
 	margin: 10px 0 30px;
 	background: #fff;
+	padding: 0 10px 10px 10px;
 }
 
 

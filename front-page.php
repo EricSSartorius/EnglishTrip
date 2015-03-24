@@ -2,7 +2,7 @@
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     
-      <div class="container">
+      <div class="main-container container">
  <div class="page-header">
               <h1><?php wp_title(''); ?></h1>
 
@@ -69,7 +69,7 @@
       </div>
  
 
-    <div class="container">
+    <div class="main-container container">
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
