@@ -18,10 +18,6 @@
 
 
 
-  
-
-
-
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -66,10 +62,7 @@
 </div>
 </div>
 
-      </div>
- 
-
-    <div class="main-container container">
+    
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">

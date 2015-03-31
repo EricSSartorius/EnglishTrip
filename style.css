@@ -15,28 +15,47 @@ This theme, like WordPress, is licensed under the GPL.
 
 /* MAIN STYLES */
 body {
-	padding-bottom: 20px;
  	background: url(images/bg_gig.jpg) repeat center top;
 }
 
-.container{
+.page-header {
+	border-bottom: 0px;
+	margin: 10px 0 20px;
+}
+
+
+.container {
 	background: #FEFBF0;
 
-	
-
-
-	-webkit-border-radius: 25px;
-	-moz-border-radius: 25px;
-	border-radius: 25px;
-	-webkit-box-shadow: #666 0px 2px 3px;
-	-moz-box-shadow: #666 0px 2px 3px;
-	box-shadow: #666 0px 2px 3px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
 	behavior: url(/pie/PIE.htc);
 }
 
-.main-container{
+.main-container {
 	background: none;
+} 
+
+
+footer {
+
+ 	background: url(images/header_bg.png) top center;
+ 	background-repeat: no-repeat;
+ 	margin-bottom: 10px;
+ 	padding-top: 70px;
+ 	padding-bottom: 100px;
 }
+
+/* NAVBAR */
+.navbar {
+	background: none;
+	border: 0;	
+	margin-top: 5px;
+	
+}
+
+
 
 
 /* MENU DROPDOWN*/
@@ -103,9 +122,9 @@ body {
 	background: #fff;
 	padding: 0 10px 10px 10px;
 	
-	-webkit-border-radius: 25px;
-	-moz-border-radius: 25px;
-	border-radius: 25px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
 	-webkit-box-shadow: #666 0px 2px 3px;
 	-moz-box-shadow: #666 0px 2px 3px;
 	box-shadow: #666 0px 2px 3px;
