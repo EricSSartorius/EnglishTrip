@@ -18,9 +18,26 @@
 
   <body <?php body_class(); ?>>
 
+
+    <div class="row">
+      <div class="col-lg-12">
+       <div class="user-status">
+          <?php
+          if (is_user_logged_in()) {
+          $user = wp_get_current_user();
+          echo wp_loginout();
+          } else { ?>
+          <strong><?php wp_loginout(); ?></strong>
+          
+          <?php } ?>
+          </div> <!-- end user status -->
+      </div>
+    </div>
+    
+
     <div class="container main-container text-center">
       <a class="visible-xs" href="<?php echo home_url(); ?>">
-            <img src="<?php bloginfo('template_directory');?>/images/et-logo.png" alt="ET Logo">
+            <img src="<?php bloginfo('template_directory');?>/images/etlogo.png" alt="ET Logo 2" class="etlogo">
           </a>
       <nav class="navbar navbar-inverse" role="navigation">
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -44,13 +61,15 @@
                   'container'         => 'div',
                   'container_class'   => 'collapse navbar-collapse',
                   'container_id'      => 'bs-example-navbar-collapse-1',
-                  'menu_class'        => 'nav navbar-nav navbar-right',
+                  'menu_class'        => 'nav navbar-nav navbar-right main-menu',
                   'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
                   'walker'            => new wp_bootstrap_navwalker())
               );
           ?>
     </div>
 </nav>
+
+
 
 
 
