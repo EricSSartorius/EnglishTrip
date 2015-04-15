@@ -19,9 +19,16 @@
   <body <?php body_class(); ?>>
 
     <!-- TOP-NAV -->
-    <div class="container-fluid main-container">
+    <div class="container main-container">
       <div class="row">
-        <div class="col-lg-12">
+
+  <div class="col-sm-6">
+ <a class="hidden-xs" href="<?php echo home_url(); ?>">
+            <img class="et-logo" src="<?php bloginfo('template_directory');?>/images/et-logo.png" alt="ET Logo">
+          </a>
+</div>
+<div class="row">
+        <div class="col-sm-6 ">
           <nav class="navbar navbar-default">
 
             <ul class="nav navbar-nav navbar-right user-status">
@@ -46,11 +53,11 @@
             </ul>
           </nav>
         </div>
-      </div>
-    </div>
+   
 
     <!-- MAIN-NAV -->
-    <div class="container main-container">
+    
+        <div class="col-md-6">
       <a class="visible-xs text-center" href="<?php echo home_url(); ?>">
             <img src="<?php bloginfo('template_directory');?>/images/etlogo.png" alt="ET Logo 2">
           </a>
@@ -63,9 +70,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-          <a class="hidden-xs" href="<?php echo home_url(); ?>">
-            <img src="<?php bloginfo('template_directory');?>/images/et-logo.png" alt="ET Logo">
-          </a>
+         
       </div>
   
           <?php
@@ -84,7 +89,8 @@
     </div>
 </nav>
 
-
+</div>
+</div>
 
 
 
